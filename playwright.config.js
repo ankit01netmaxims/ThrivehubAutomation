@@ -28,7 +28,7 @@ export default defineConfig({
       args: ['--start-maximized']
     },
     viewport: null,
-    headless: false,
+    headless: true,
     baseURL: process.env.BASE_URL,
     screenshot: 'only-on-failure'
   },
