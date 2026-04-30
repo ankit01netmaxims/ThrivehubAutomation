@@ -1,0 +1,24 @@
+{
+    "imageDeleteButton" : "//button//*[name()='svg' and @class='lucide lucide-trash2 lucide-trash-2 h-4 w-4']",
+    "addFacilityButton":"//button[normalize-space()='Add Facility']",
+    "facilityTitleInput":"//input[@placeholder='e.g. 121 Wellness hub']",
+    "editFacilityButton": "//button//*[name()='svg' and contains(@class,'lucide-square-pen')]",
+    "facilityLocation": "//input[@placeholder='e.g. 121 fitness St, Wellness City']",
+    "imageInput": "input[type='file']",
+    "themeSelectorDark":"//div//button/span[text()='dark']",
+    "themeSelectorDefault":"//div//button/span[text()='Default']",
+    "facilityAbout":"//div[@role='toolbar']/..//p",
+    "facilityVisibilityCheckbox":"//span[@class='relative leading-none']//*[name()='svg']",
+    "saveChangeButton":"//button[normalize-space()='Save Changes']",
+    "loginBtn" : "//button[@type='submit']",
+    "logoutButton":"//div//p[contains(., 'Logout Admin')]",
+    "searchBox":"input[placeholder*='Search']",
+    "paginationCount":"//div[text()='Rows per page:']/..//../preceding::button//span[1]",
+    "rows":"//tr",
+    "heading":"//h2",
+    "img":"//div[@class='group relative h-full aspect-video w-full']//img",
+    "addClassButton": "//button[normalize-space()='Add Classes']",
+    "classCreationSuccessMessage":"//div[text()='Class created successfully']"
+
+
+}
