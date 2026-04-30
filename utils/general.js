@@ -14,6 +14,9 @@ async function login(page) {
   await page.locator(locator.loginBtn).click();
 
   await page.waitForLoadState('domcontentloaded'); 
+  if (await page.locator(locator.navbarButton).isVisible()) {
+    await page.locator(locator.navbarButton).click();
+  }
   await expect(page.locator(locator.logoutButton)).toBeVisible();
 }
 

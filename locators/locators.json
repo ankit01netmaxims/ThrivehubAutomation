@@ -18,7 +18,8 @@
     "heading":"//h2",
     "img":"//div[@class='group relative h-full aspect-video w-full']//img",
     "addClassButton": "//button[normalize-space()='Add Classes']",
-    "classCreationSuccessMessage":"//div[text()='Class created successfully']"
+    "classCreationSuccessMessage":"//div[text()='Class created successfully']",
+    "navbarButton":"//button[@aria-label='Open Sidebar Menu']//*[name()='svg']"
 
 
 }

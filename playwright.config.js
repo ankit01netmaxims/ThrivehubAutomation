@@ -25,7 +25,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     launchOptions: {
       slowMo: 500,
-      args: ['--start-maximized']
+      args: ['--start-maximized', '--window-size=1920,1080']
     },
     viewport: null,
     headless: true,
